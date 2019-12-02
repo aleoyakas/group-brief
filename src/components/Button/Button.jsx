@@ -7,7 +7,8 @@ class Button extends Component {
       <div>
         <button
           type="button"
-          className={`${styles[this.props.buttonName]} ${styles.button}`}
+          style={{ color: this.props.buttonName.toLowerCase() }}
+          className={`${styles.button}`}
           alt={this.props.buttonName}
           onClick={this.props.action}
         >

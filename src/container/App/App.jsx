@@ -44,13 +44,7 @@ class App extends Component {
     return (
       <div className={styles.appContainer}>
         <header className={styles.appHeader}>
-          <h1>
-            <img
-              src="https://fontmeme.com/permalink/191202/2e5bf93093ad800ccb36d7bafacecb8e.png"
-              alt="nokia-font"
-              border="0"
-            />
-          </h1>
+          <h1>FILTER</h1>
           <Button buttonName="all" action={() => this.updatePosts("all")} />
           <Buttons
             buttonColors={this.state.colors}

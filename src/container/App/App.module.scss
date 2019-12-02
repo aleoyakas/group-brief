@@ -1,7 +1,8 @@
 .appContainer {
   background-image: url("../../images/filter.jfif");
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  background-attachment: fixed;
   min-height: 100vh;
   text-align: center;
   align-content: center;
@@ -14,5 +15,11 @@
     height: 20vh;
     padding: 2vh;
     background-color: #eac67a;
+
+    h1 {
+      font-size: 5em;
+      font-weight: 600;
+      color: #994a41;
+    }
   }
 }
